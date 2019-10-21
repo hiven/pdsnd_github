@@ -184,7 +184,6 @@ def display_data(df):
 
     start_loc = 0
     end_loc = 5
-
     display_active = input("Do you want to see the raw data?: ").lower()
 
     if display_active == 'yes':
@@ -203,7 +202,6 @@ def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
