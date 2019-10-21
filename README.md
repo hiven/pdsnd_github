@@ -1,14 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+21/10/2019
 
 ### Project Title
-Replace the Project Title
+Bike Share Analysis
 
 ### Description
-Describe what your project is about and what it does
+Query rideshare data to display insight and analysis.
 
 ### Files used
-Include the files used
+bikeshare.py - Main python file
+.gitignore - Stop sending unwanted files to git
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
